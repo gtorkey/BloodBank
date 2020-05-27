@@ -1,0 +1,760 @@
+body{background-color: white;
+}
+p,img,ul,li,h1,h2,h3,h4,h5,h6,a,p,hr{
+	padding: 0px;margin: 0px;
+}
+#indexloginPage{
+	display: none;
+}
+#signinPage{
+	display: contents;
+}
+															/*------------------------Start Home Page------------------*/
+
+/*------------------------Start Header Area------------------*/
+header{
+    background-color: #2d3e50;
+    color:white;
+	padding: 10px
+}
+header .social a{
+
+    color:white;
+    padding: 0px 6px;
+    font-size: 24px;
+}
+header i{
+    padding: 5px;
+    
+}
+
+
+@media only screen and (max-width: 768px) {
+  header .social {
+      text-align: center;
+  }
+      header .phone {
+      text-align: center;
+  }
+    header{position: relative}
+    .language{position: absolute;bottom:7px;right: 0px;}
+}
+@media only screen and (max-width:425px){
+    header .phone{display: none;}
+    header .mail{display: none;}
+    header .social {
+      text-align: left;
+  }
+    .language{position: absolute;bottom:7px;right: 20px;}
+    header .social a {font-size: 20px;}
+}
+
+/*------------------------End Header Area------------------*/
+/*------------------------Start Nav Area------------------*/
+nav{
+	background-color: #F1F1F1;
+	direction: rtl;
+	padding: 20px 0px 5px 0px;
+	box-shadow: 0  8px  16px 0 rgbA(0,0,0,.2);
+}
+nav ul {padding: 20px;}
+#logo{float: right}
+nav  li{
+	border-right: 1px solid rgba(141,141,141,0.4);
+	height:40px;
+	
+}
+nav .navbar-nav a {
+padding-bottom: 40px;
+	color:black!important;
+	font-size: 16px!important;
+	font-weight: bold!important;
+}
+nav .navbar-nav a:hover{
+	color:red!important;
+	
+	border-bottom: 4px solid red;
+	
+}
+nav .login{
+		position: absolute;
+	top: 35px;
+	left: 10px;
+}
+nav .login .sign-up{
+	color:black;
+	text-decoration: underline;
+	font-size: 17px;
+	font-weight: bold;
+	
+		
+}
+nav .sign-in{
+	color:white;
+	border-radius: 10px;
+	padding: 10px 25px;
+	background-color: #2d3e50;
+
+}
+nav .sign-in:hover{background-color: #CB4B51;text-decoration: none;color:black;}
+@media only screen and (max-width: 992px) {
+	nav .login{
+		position: static;
+		padding-top: 20px;
+	}
+	nav .login .sign-up{
+		
+		display: none;
+	}
+	nav .login .sign-in{
+		display: none;
+	}
+	nav .navbar-nav a:hover{
+		border-bottom: none;
+	}
+	nav .navbar-nav li{
+		border-right: none;
+	}
+}
+
+/*------------------------End Nav Area------------------*/
+/*------------------------Start Nav Area------------------
+nav{
+	background-color: #F1F1F1;
+	direction: rtl;
+	padding: 20px 0px 5px 0px;
+		box-shadow: 0  8px  16px 0 rgbA(0,0,0,.2);
+}
+nav ul{
+	margin-top: 20px;
+	list-style-type: none;
+	display: flex;
+	margin-right: 20px;
+	
+
+}
+nav .links a{
+	margin-left: 12px;
+	color:black;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 10px;
+	text-decoration: none;
+	padding-bottom: 45px;
+		
+}
+nav .links a:hover{
+	color:red;
+	border-bottom: 4px solid red;
+}nav .links a:active{
+	color:red;
+	border-bottom: 4px solid red;
+}
+
+nav .links li{
+	border-right: 1px solid rgba(141,141,141,0.4);
+	height: 40px;
+}
+nav .login{
+	margin-top: 20px;
+	float: left;
+	
+}
+nav .login .sign-up{
+	color:black;
+	text-decoration: underline;
+	font-size: 17px;
+	font-weight: bold;
+	
+		
+}
+nav .sign-in{
+	color:white;
+	margin:5px;
+	border-radius: 10px;
+	padding: 10px 25px;
+	background-color: #2d3e50;
+}
+nav .sign-in:hover{background-color: #CB4B51;text-decoration: none;color:black;}
+/*------------------------End Nav Area------------------*/
+/*------------------------Start Main Area------------------*/
+.main{
+	background-image: url("Assets/imgs/BG.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	padding: 200px 0px;
+		
+}
+.main .moreinfo{
+	text-align:right;
+	margin-top:150px;
+}
+.main .moreinfo a{
+		color:white;
+		font-size: 20px;
+		font-weight: bold;
+		border-radius: 10px;
+		padding: 10px 80px;
+		background-color: #2d3e50;
+}
+.main p{margin-bottom: 15px;
+}
+
+.main .moreinfo a:hover{background-color: #CB4B51;text-decoration: none;color:black;}
+@media screen and (max-width:650px){
+	.main{
+/*		background-image: url("Assets/imgs/BG1.jpg")*/
+			background-size: contain;
+	}
+	
+}
+/*------------------------End Main Area------------------*/
+/*------------------------Start AboutBlood Area------------------*/
+
+.aboutblood{background-image: url("Assets/imgs/about.png");	
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 80px 0px;
+
+}
+.aboutblood p {
+	text-align: center;
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+}
+/*------------------------End AboutBlood Area------------------*/
+/*------------------------Start Articles Area------------------*/
+
+.articles{padding: 40px 0px;
+background-color: #fbfbfb;
+	direction: rtl;
+}
+.articles .prev2{margin-right: 15px}
+.slider-arrows{margin-top: 20px;}
+.articles h3{
+	text-align: right;
+	width: 150px;
+	color:#CB4B51;
+	padding-bottom:20px;
+	border-bottom: 4px solid #CB4B51;
+}
+.articles .cards{
+	padding: 2px;
+	background-color: white;
+	padding-bottom: 30px;
+	position: relative;
+	
+}
+.articles .cards i{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	padding: 10px;
+	background-color: #2d3e50;
+	color:white;
+	border-radius: 50%;
+		
+}
+.articles a {
+	text-align: center;
+	color:white;
+	padding: 15px 60px;
+	background-color: #2d3e50;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+.articles a:hover{
+	background-color: #CB4B51;
+}
+.cards p{
+	padding-bottom: 30px;
+	text-align: right;
+}
+.articles h5{
+	text-align: right;
+	color: #d57a77
+}
+
+
+
+/*------------------------End Articles Area------------------*/
+/*------------------------Start BloodDonate Area------------------*/
+.donate{
+	padding: 40px 0px;
+	direction: rtl;
+	background-color: #f5f5f5;
+	margin-bottom: 40px;
+	
+}
+.donate h3 {
+	text-align: center;
+	width: 220px;
+	margin: 0px auto ;
+	color:#CB4B51;
+	padding-bottom:20px;
+	border-bottom: 4px solid #CB4B51;
+}
+.donate select{
+	border-radius: 20px;
+	padding: 0px 30px;
+}
+.donate .search .row .col-md-4{margin-top: 30px;}
+.donate .search .row .col-md-2{margin-top: 20px;text-align: right;}
+.donate i{
+	text-align: right;
+	padding: 20px;
+	color:black;
+	background-color: white;
+	border-radius: 50%;
+	font-weight: bold;
+}
+.donate .patient{
+	padding: 5px 0px 5px 40px;
+
+	background-color: white;
+	margin: 20px 0px;
+	border-radius: 0px 100px 100px 0px;
+	text-align: right;
+	font-size: 18px;
+	line-height: 16px;
+}
+.donate .patient p{
+	padding: 7px;
+
+}
+.donate .patient a{
+	text-decoration: none;
+	color:black;
+	padding: 20px 80px;
+	border-radius: 10px;
+	background-color: #F3F3F3;
+}
+.donate .patient a:hover{
+	background-color: #2d3e50;
+	color:white;
+}
+
+.donate .patient .row .col-md-2 i{
+	background-color: #F3F3F3;
+	font-size: 38px;
+}
+.donate .patient .row .col-md-3{
+	text-align: left;
+	margin-top: 38px;
+}
+.donate .patient .row .col-md-2{
+	margin-top: 30px;
+}
+.donate .moreinfo a {
+	text-align: center;
+	color:white;
+	padding: 15px 60px;
+	background-color: #2d3e50;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+.donate .moreinfo{
+	padding: 20px;
+}
+.donate .moreinfo a:hover{
+	background-color: #CB4B51;
+}
+@media only screen and (max-width:992px){
+	.donate .patient a{
+		padding: 20px 40px;
+		}
+	}
+@media only screen and (max-width:767px){
+		.donate .patient{
+			border-radius: 50px;
+			padding: 5px 0px;
+		}
+
+		.donate .patient .row .col-md-2 {
+		text-align: center;
+  		border: 3px solid #F3F3F3;
+		background-color:#F3F3F3;
+		padding: 0px;
+		margin-top: 30px;
+		
+		}
+		.donate .patient .row .col-md-3{
+			text-align: center;
+			margin-bottom: 30px;
+			padding-right: 30px;
+		}
+	}
+
+/*------------------------End BloodDonate Area------------------*/
+
+/*------------------------Start ContactUs Area------------------*/
+.contactus{
+	background-image: url("Assets/imgs/call.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 50px 0px;
+	height: 400px;
+		
+}
+.contactus .content{float: right;}
+.contactus .content p {
+	font-size: 22px;
+	
+}
+.contactus .content .callus{
+	text-align: center;
+	width: 120px;
+	font-size: 26px;
+	font-weight: bold;
+	margin: 0px auto ;
+	color:#CB4B51;
+	padding-bottom:10px;
+	border-bottom: 4px solid #CB4B51;
+}
+.contactus .whatsapp{
+	text-align: center;	
+	margin-right: 60px;
+	margin-top: 40px;
+	
+	
+		
+}.contactus .whatsapp p{
+	float: right;
+	background-color: #3ab54a;
+	border-radius: 120px;
+	font-size: 18px;
+	color:white;
+	padding-right: 30px;
+	letter-spacing: 5px;
+}
+.contactus .whatsapp img{
+	padding-right: 30px;
+	margin: -10px
+}
+@media only screen and (max-width:450px){
+	
+	.contactus .whatsapp p {
+		padding-right: 10px;
+		letter-spacing: 2px;
+		
+	}
+	.contactus .whatsapp img{
+		width: 100px;
+		
+	}
+}
+@media only screen and (max-width:450px){
+	
+	.contactus .whatsapp p {
+		letter-spacing: 0px;
+		
+	}
+}
+
+/*------------------------End ContactUs Area------------------*/
+/*------------------------Start Application Area------------------*/
+.application{
+	padding: 50px;
+	background-image: url("Assets/imgs/BG-phone.png");
+		
+}
+.application .rightside{
+	text-align: right;
+}
+.application .rightside h5{
+	padding: 25px 0px;
+}
+.application .rightside p{
+	font-size: 18px;
+}
+.application .rightside img{ 
+	padding: 10px;
+}
+/*------------------------End Application Area------------------*/
+/*------------------------Start Footer Area------------------*/
+
+footer{
+	background-color: #1a1f25;
+	padding: 50px 0px;
+	text-align: right;
+	color:white;
+}
+footer h4{
+	padding: 20px 0px;
+}
+footer p{
+	padding: 20px 0px;
+}
+footer img{
+	padding: 20px 0px;
+}
+footer ul {
+	list-style-type: none;
+	padding: 20px;
+}
+footer .links  a {
+	color:white;
+	text-decoration: none;
+	font-size: 22px;
+	
+}
+footer .links a:hover{
+	color:red;
+}
+footer .links li{
+	padding: 10px 0px;
+}
+.lastsection{background-color: black;padding: 20px 0px;}
+.lastsection i{padding: 0px 10px;}
+.lastsection a{color:white;text-decoration: none;}
+.lastsection a:hover{color: #e6e6e6;}
+/*------------------------End Footer Area------------------*/
+
+
+															/*------------------------End Home Page------------------*/
+															/*------------------------Start SignIn Page------------------*/
+
+
+/*------------------------Start SignIn Area------------------*/
+.signin{
+	background-color: #f5f5f5;
+	padding: 30px 0px;
+}
+.path{
+	background-color: white;
+	text-align: right;
+	
+}
+.path p{
+	padding: 10px;
+}
+.signin .loginbox{
+	background-color: white;
+	padding: 30px 80px;
+	direction: rtl;
+	text-align: right;
+	border: 1px solid #D8D8D8;
+	margin: 20px 0px;
+}
+.signin .loginbox img {
+	margin: 0 auto;
+	display: block;
+}
+.signin input[type=text], input[type=password] {
+	text-align: right;
+	width: 100%;
+	padding: 20px;
+	margin: 20px 0px;
+	background-color: #f5f5f5;
+	border: none;
+}
+
+.signin .row a{
+	color:white;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.signin .row .btn-signin{
+	background-color: #3ab54a;
+	padding: 10px;
+	
+}
+.signin .row .btn-signup{
+	background-color: #2d3e50;
+	padding: 10px;
+	
+	
+}
+.signin #incorrect{
+	display: none;
+	color:red;
+	font-size: 22px;
+	text-align: center;
+	margin: 20px;
+}
+@media screen and (max-width:452px){
+	.signin .loginbox{
+		padding: 30px 20px;
+	}
+}
+/*------------------------End SignIn Area------------------*/
+
+															/*------------------------End SignIn Page------------------*/
+															/*------------------------Start SignUp Page------------------*/
+/*------------------------Start SignUp Area------------------*/
+
+.signup{
+	padding: 30px 0px;
+	background-color: #f5f5f5;
+	text-align: right;
+}
+.signup input {
+	text-align: right;
+	width: 100%;
+	padding: 20px;
+	margin: 20px 0px;
+	background-color: #f5f5f5;
+	border: none;
+}
+.signup select{
+	text-align: right;
+	width: 100%;
+	padding: 10px 20px;
+	margin: 20px 0px;
+	background-color: #f5f5f5;
+	border: none;
+	height: 63px;
+}
+.signup .register{
+	background-color: white;
+	padding: 0px 80px;
+	direction: rtl;
+	text-align: right;
+	border: 1px solid #D8D8D8;
+	margin: 20px 0px;
+}
+.signup a{
+	color:white;
+	font-size: 20px;
+	text-decoration: none;
+	
+}
+.signup .create{
+	padding: 10px 50px;
+	text-align: center;
+	margin: 20px ;
+	background-color: #3ab54a;
+}
+@media screen and (max-width:375px){
+	
+	.signup .register{
+		padding: 0px 20px;
+	}
+}
+/*------------------------End SignUp Area------------------*/
+															/*------------------------End SignUp Page------------------*/
+															/*------------------------Start Article Page------------------*/
+/*------------------------End SignUp Area------------------*/
+.article{padding: 30px 0px;
+		background-color: #fbfbfb;
+	direction: rtl;
+}
+.article img{
+	padding-bottom: 20px;
+	display: block;
+	margin: 20px auto;
+}
+.article .header{
+	background-color: #2d3e50;
+	padding: 15px;
+	color:white;
+	position: relative;
+}
+.article .header h6{text-align: right}
+.article .header i {float: left;
+	padding: 10px;
+	border-radius: 50%;
+	background-color: #2d3e50;
+	border: 1px solid white;
+	position: absolute;
+	top:5px;
+	left:10px;
+}
+.article .article-text{
+	padding: 20px;
+	background-color: white;
+	margin-top: 20px;
+	
+}
+.article h3{
+	width: 280px;
+}
+/*------------------------End SignUp Area------------------*/
+															/*------------------------End Article Page------------------*/
+															/*------------------------Start contactus Page------------------*/
+/*------------------------Start contactus Area------------------*/
+.contacus{
+	direction: rtl;
+	padding: 30px;
+	background-color: #f5f5f5;
+}
+.contacus .col-md-6{
+	background-color: white;
+	padding: 30px;
+	margin: 10px 0px;
+}
+.contacus h5{
+	padding: 20px;
+	background-color: #2d3e50;
+	margin: 10px 0px;
+	color:white;
+	text-align: center;
+	
+}
+.contacus img{
+	display: block;
+	margin: 0px auto;	
+	padding: 40px 0px;
+    width: 300px;
+}
+.contacus p{
+	text-align: right;
+	padding: 11px;
+	font-size: 19px;
+}
+.contacus .contactus-area p{
+	text-align: center;
+	color: #e11f27;
+	font-weight: bold;
+}
+.contactus-area i{
+	font-size: 40px;
+	padding: 10px;
+	
+}
+.contacus .contactus-area a{
+	color:white;
+}
+.contacus .contactus-area .social{
+	text-align: center;
+	direction: ltr;
+}
+.contacus input {
+	text-align: right;
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0px;
+	background-color: white;
+	border: 1px solid #E3E3E3;
+	
+}
+.contacus textarea{
+	text-align: right;
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0px;
+	background-color: white;
+	border: 1px solid #E3E3E3;
+	height: 100px;
+}
+.contacus form a{
+	
+	text-decoration: none;
+	
+	color:white;
+	
+	
+}
+.contacus .send{
+	padding: 20px;
+	background-color: #2d3e50;
+	margin: 10px 0px;
+	text-align: center;
+}
+/*------------------------End contactus Area------------------*/
+															/*------------------------End contactus Page------------------*/
